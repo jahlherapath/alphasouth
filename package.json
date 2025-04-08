@@ -1,0 +1,14 @@
+{
+  "name": "alphasouth",
+  "version": "1.0.0",
+  "homepage": "https://jahlherapath.github.io/alphasouth",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist --public-url ./",
+    "deploy": "pnpm build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "gh-pages": "^6.0.0"
+  }
+}
