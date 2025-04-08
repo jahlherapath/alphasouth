@@ -4,7 +4,8 @@
   "homepage": "https://jahlherapath.github.io/alphasouth",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir docs --public-url /alphasouth/"
+    "build": "parcel build src/index.html --dist-dir docs --public-url ./",
+    "build:gh": "parcel build src/index.html --dist-dir docs --public-url /alphasouth/"
   },
   "devDependencies": {
     "gh-pages": "^6.0.0",
